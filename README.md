@@ -1,8 +1,8 @@
 # MailBinder Local for Windows
 
-## Release status: downloads temporarily paused
+## Current release: 0.1.2
 
-Version 0.1.1 has been withdrawn from trial distribution after review reproduced missing multipart-body content, unreported skipped links, inconsistent manifest warnings, and an attachment-path collision. Do not rely on 0.1.1 output as complete. A corrected 0.1.2 release is being tested and independently reviewed; it is not yet available. No purchase is currently offered.
+Version 0.1.2 corrects missing multipart-body content, unreported skipped links, inconsistent manifest warnings, and an attachment-path collision. Version 0.1.1 remains withdrawn; do not rely on its output as complete. The replacement passed 43 automated tests, independent cross-review and actual full/trial GUI regression checks. This is not a zero-bug guarantee: review your PDF and reports against the source material.
 
 Turn a folder of exported `.eml` email files into one indexed PDF binder, with nested bookmarks, attachment pages, original messages, and a processing report.
 
