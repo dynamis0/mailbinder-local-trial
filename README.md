@@ -1,24 +1,26 @@
 # MailBinder Local for Windows
 
-## Trial downloads temporarily paused — reporting correction under review
+## Current evaluation release: 0.1.4
 
-On November 1, an additional check found that version 0.1.3 can extract and list an unsupported attachment without adding its `unsupported_for_binder` warning to `errors.csv` or the GUI issue count. The file is retained; the manifest and parent email's PDF review note still show that it was not appended. Do not assume that zero issues means every attachment became a PDF page.
+Version 0.1.4 corrects a reporting discrepancy found in 0.1.3: when attachment appending is enabled, an unsupported attachment now adds `unsupported_for_binder` to `errors.csv` and the GUI issue count. The extracted file is retained and listed in the manifest; the warning means it did not become a PDF page. Deliberately turning appending off remains `append_disabled`, not an issue.
 
-The older trial releases are temporarily unlisted as drafts, with their files retained for recoverability. A corrected 0.1.4 build is being tested and is **not yet approved or available**. [Check the official release status](https://dynamis-software.ms-sugar.chatgpt.site/mailbinder-local#try). The historical verification below is not a claim that this new reporting defect was covered.
+The older trial releases remain unlisted as drafts, with their files retained for recoverability. If you already generated output using 0.1.3, check its manifest and parent email's PDF review notes; that version can omit this warning from its issue count. A zero count is not proof that every attachment became a PDF page.
 
-## Previous release: 0.1.3
+The exact 0.1.4 ZIPs passed Codex/Claude cross-review, 79 Core/UI tests, 13 negative packaging checks, and bounded actual Windows full/trial workflows. These are not a guarantee of zero defects or every input/machine configuration. Review your PDF, manifests and reports against the source material.
 
-Version 0.1.3 adds explicit missing-font-glyph reporting, a custom app icon, a compact language picker, smaller Browse buttons and a fixed action bar. It retains the content and reporting fixes from 0.1.2. Version 0.1.1 remains withdrawn; do not rely on its output as complete. The release passed 76 automated Core/UI tests, independent Codex/Claude cross-review and actual final full/trial ZIP GUI checks. These are bounded checks, not a zero-bug guarantee: review your PDF and reports against the source material.
+The custom app icon, compact language picker, fixed action bar, explicit missing-glyph reporting and earlier content/reporting fixes are retained. Version 0.1.1 remains withdrawn; do not rely on its output as complete.
 
-Turn a folder of exported `.eml` email files into one indexed PDF binder, with nested bookmarks, attachment pages, original messages, and a processing report.
+Turn a folder of exported `.eml` email files into one indexed PDF binder, with nested bookmarks, attachment pages, copies of source EML files, and a processing report.
 
-[Product, sample output, and purchase](https://dynamis-software.ms-sugar.chatgpt.site/mailbinder-local)
+[Product, sample output and current release availability](https://dynamis-software.ms-sugar.chatgpt.site/mailbinder-local)
 
-## Evaluation scope after downloads resume
+The official website's purchase button remains paused while the seller updates and verifies full-edition delivery. This repository offers the evaluation edition only; it does not claim that the external checkout has been updated or disabled.
+
+## Evaluation scope
 
 The Windows x64 evaluation edition processes up to **25 EML files per run** and adds an evaluation notice to binder pages. It is licensed for evaluation only, not production or third-party service work. No account, payment card, mailbox access, or internet connection is needed to process files.
 
-Download links are paused while the correction is verified. When an approved replacement is published, extract its whole ZIP to a new folder, then run `MailBinder.Local.Trial.exe`. Read the included quick-start instructions and check the published SHA-256 download checksum.
+[Download the 0.1.4 evaluation ZIP and fictional input sample](https://github.com/dynamis0/mailbinder-local-trial/releases/tag/v0.1.4). Extract the whole application ZIP to a new folder, then run `MailBinder.Local.Trial.exe`. Read the included quick-start instructions and check the published SHA-256 download checksum.
 
 **Compatibility:** Windows 10/11 x64. The app is currently unsigned; SmartScreen or your organization's security policy may block it from running. Do not disable security protections. Evaluate it only where your software policy allows unsigned applications. A checksum confirms that your file matches the published download; it is not a security certification.
 
@@ -26,9 +28,9 @@ Download links are paused while the correction is verified. When an approved rep
 
 - One continuous `Binder.pdf` with an index, folder bookmarks, message headers, and page numbers.
 - Optional appended PDF/JPG/PNG attachment pages.
-- Extracted attachments and a ZIP of original EML files.
+- Extracted attachments and a ZIP of copies of source EML files.
 - CSV and JSON manifests with source paths, SHA-256 hashes, statuses, and page ranges.
-- A processing issues report. In 0.1.3, unsupported attachment warnings can be missing from this report; check the manifest and PDF review notes as described above.
+- A processing issues report, including unsupported attachments when appending is enabled. Deliberately disabled attachment pages are recorded in the manifest rather than as issues.
 
 ## Know the limits before purchase
 
@@ -43,7 +45,7 @@ Download links are paused while the correction is verified. When an approved rep
 
 ## Samples and support
 
-The product page retains a real 23-page sample generated by the 0.1.3 full build from 12 fictional input messages. All 9 sample attachments were appended, so the newly found reporting defect did not affect that sample. It is historical output, not proof of the corrected build. Sample input ZIPs are temporarily unlisted along with the older trial releases. The sample uses fictional people, organizations and `.invalid` addresses.
+The product page retains a real 23-page sample generated by the 0.1.3 full build from 12 fictional input messages. All 9 sample attachments were appended, so the reporting defect did not affect that sample. It is historical output, not relabeled 0.1.4 evidence. The unchanged `MailBinder-Sample-EML-0.1.2.zip` input kit is included in the 0.1.4 trial release. The sample uses fictional people, organizations and `.invalid` addresses.
 
 For compatibility or purchase questions: [work421398840@gmail.com](mailto:work421398840@gmail.com). Describe the file format and visible error first; do not send private email archives or credentials.
 

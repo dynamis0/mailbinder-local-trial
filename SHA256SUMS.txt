@@ -1,2 +1,2 @@
-1a1b26b4ac589bcbbef82ee20d7a01a14577bbbea8503ba15dc4a13af99850d6  MailBinder-Local-0.1.3-trial-win-x64.zip
+6577f79e9dcf5ac89c7b79f2a8246bd3d3b8538e8f230d199722fe2c857d2a86  MailBinder-Local-0.1.4-trial-win-x64.zip
 3187c526bf00c61adc74eb4e5d18db7684971a68b45df26746f48a5755684938  MailBinder-Sample-EML-0.1.2.zip
