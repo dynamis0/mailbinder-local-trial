@@ -6,11 +6,11 @@ Turn a folder of exported `.eml` email files into one indexed PDF binder, with n
 
 ## Try it with your own files
 
-The Windows x64 evaluation edition processes up to **25 EML files per run** and adds an evaluation notice to binder pages. No account, payment card, mailbox access, or internet connection is needed to process files.
+The Windows x64 evaluation edition processes up to **25 EML files per run** and adds an evaluation notice to binder pages. It is licensed for evaluation only, not production or third-party service work. No account, payment card, mailbox access, or internet connection is needed to process files.
 
 Download the ZIP from [Releases](https://github.com/dynamis0/mailbinder-local-trial/releases), extract all files to a new folder, then run `MailBinder.Local.Trial.exe`. Read the included quick-start instructions and check the SHA-256 download checksum in the release.
 
-**Compatibility:** Windows 10/11 x64. The app is currently unsigned; Windows may display an unknown-publisher warning. Evaluate it only where your organization allows unsigned applications. Try a copy of non-confidential test files first.
+**Compatibility:** Windows 10/11 x64. The app is currently unsigned; SmartScreen or your organization's security policy may block it from running. Do not disable security protections. Evaluate it only where your software policy allows unsigned applications. A checksum confirms that your file matches the published download; it is not a security certification.
 
 ## What the app creates
 
