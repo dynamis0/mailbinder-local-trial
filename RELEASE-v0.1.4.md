@@ -24,4 +24,4 @@ EML only; no MSG/PST/OST/MBOX, mailbox login/export, OCR, Office conversion, ori
 
 Unsigned Windows build: SmartScreen or organizational policy may block it. Do not disable security protections to run it. Checksums confirm file consistency, not safety certification. Review output against sources.
 
-The official website's purchase button is temporarily paused while full-edition delivery is updated and verified; this release provides the evaluation edition only. [Current release status, product scope and contact](https://dynamis-software.ms-sugar.chatgpt.site/mailbinder-local#try). Contact: work421398840@gmail.com; do not send confidential messages or attachments.
+The full 0.1.4 build is available through the official website as an optional one-time purchase for JPY 980. This release provides the evaluation edition only; its download does not unlock or include the full build. [Product scope, purchase terms and contact](https://dynamis-software.ms-sugar.chatgpt.site/mailbinder-local). Contact: work421398840@gmail.com; do not send confidential messages or attachments.
