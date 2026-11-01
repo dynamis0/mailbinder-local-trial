@@ -14,7 +14,7 @@ Turn a folder of exported `.eml` email files into one indexed PDF binder, with n
 
 [Product, sample output and current release availability](https://dynamis-software.ms-sugar.chatgpt.site/mailbinder-local)
 
-The official website's purchase button remains paused while the seller updates and verifies full-edition delivery. This repository offers the evaluation edition only; it does not claim that the external checkout has been updated or disabled.
+The full 0.1.4 build is available through the official website as an optional one-time purchase for JPY 980. This repository offers the evaluation edition only; its download does not unlock or include the full build.
 
 ## Evaluation scope
 
